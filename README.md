@@ -77,7 +77,7 @@ are different, we used the knowledge distillation method.
 So, We go through 2 trainning process to obtain **Teacher model and Student Model**
 ### 1. Teacher Model Training
 * learning method: [CatBoostClassifier](https://catboost.ai/en/docs/concepts/python-reference_catboostclassifier)
-* 5 StratifiedKFold mixup 
+* 5 StratifiedKFold ensemble
   * So, 5 model weights are saved after training
 * includes hyper-parameter tuning preocess with Optuna
  
