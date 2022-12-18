@@ -44,7 +44,7 @@ NVIDIA RTX A2000 Laptop GPU
 ```
 
 ### Or you can execute in Web based Development Services
-If you want to run it with Colab or AWS Sagemaker, run the learning code below. Also, It includes an EDA and results analysis process. It will output the same result.
+If you want to run it with Colab or AWS Sagemaker, run the ipynb code below. Also, It includes an EDA and results analysis process. It will output the same result.
 * Google Colab
 * AWS Sagemaker Studio Lab
 ```
