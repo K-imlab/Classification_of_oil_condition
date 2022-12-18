@@ -9,7 +9,7 @@ import pickle
 import warnings
 warnings.filterwarnings(action = 'ignore')
 
-train_data_path = './dataset/train.csv'
+train_data_path = './dataset/train.csv'  # label encoding을 위해 train data도 read
 test_data_path = './dataset/test.csv'
 
 teacher_train_features = ['COMPONENT_ARBITRARY', 'ANONYMOUS_1', 'YEAR', 'ANONYMOUS_2', 'AG',
@@ -23,7 +23,6 @@ train2 = Rdata_train.loc[:, teacher_train_features]
 test2 = Rdata_test.drop(['ID'], axis=1)
 
 # 범주형 변수인 COMPONENT_ARBITRARY와 YEAR를 LabelEncoder 변환
-
 le1 = LabelEncoder()
 le2 = LabelEncoder()
 train2['COMPONENT_ARBITRARY_category'] = le1.fit_transform(train2['COMPONENT_ARBITRARY'])
