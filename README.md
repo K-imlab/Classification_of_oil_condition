@@ -131,7 +131,7 @@ result
 ```
 ***
 ## Download Best Model
-You can download our best model weight [Here](https://drive.google.com/file/d/154x-vbFIAQ5NkCf2J2eQaoSp7oJDWdBf/view?usp=sharing).
+You can download our best model weight [Here GoogleDrive](https://drive.google.com/file/d/1A0aJ9Al_ZiSdLVuRMNippPkuegFyMj1i/view).
 ***
 ## Inference With Best Model
 Best model must be unzipped under **models** folder
